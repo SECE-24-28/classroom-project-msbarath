@@ -1,0 +1,39 @@
+.container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    border: 2px solid #000;
+    margin: 20px;
+}
+
+.absolute-box {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.relative-box {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+.fixed-box {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+.sticky {
+    position: sticky;
+    top: 20px;
+}
