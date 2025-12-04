@@ -1,0 +1,28 @@
+.flexcontainer{
+    border: 1px solid red;
+    display: flex;
+    height: 99vh;
+    gap: 10px;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.flexItem{
+    background-color: yellow;
+    border: 2px solid red;
+    color: red;
+    font-size: 24px;
+    height: 60px;
+    width: 80px;
+}
+
+.flexItem:nth-child(1){
+    order: 1;
+    align-self: center;
+}
+
+.flexItem:nth-child(3){
+    order: -1;
+    align-self: flex-end;
+}

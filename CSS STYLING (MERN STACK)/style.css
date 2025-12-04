@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(233, 242, 245);
+    margin: 0;
+    padding: 0;
+}
+header{
+  text-align: center;
+  padding: 20px 0px;
+  background-color: rgb(134, 0, 244);
+  color: White;
+  border-radius: 7px;
+}
+header h1{
+    border: 4px solid red;
+    padding: 10px;
+    margin: 5px;
+}
+
+.quize{
+    min-height: 100vh;
+}
+.quize-body{
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid rgb(140, 0, 255);
+    padding: 20px;
+    max-width: 1200px;
+    margin: 60px auto;
+}
+.questions{
+    padding: 10px;
+    background-color: rgba(186, 197, 255, 0.508);
+    margin: 10px;
+    border-radius: 10px;
+}
+.question{
+    padding: 10px 0px;
+}
